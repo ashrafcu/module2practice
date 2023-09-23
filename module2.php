@@ -6,14 +6,16 @@ include_once "functions.php";
     }
 
 echo PHP_EOL;
-$n=1;
-while ($n<=21){
-    $n++;
-    echo $n.PHP_EOL;
-}
-echo "\n";
-echo "\n";
-
+*/
+function fetchEvenNumbers(int $n, int $max){
+    while ($n<=$max){
+        echo $n . PHP_EOL;
+        $n+=2;
+    }
+    echo "=================== \n";
+    }
+    fetchEvenNumbers(2,20);
+/*
 $b=7;
 do {
     $b++;

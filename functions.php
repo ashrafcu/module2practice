@@ -45,6 +45,7 @@ function fibonnacci($old, $new, $end){
     $new=$_temp;
     fibonnacci($old, $new, $end);
 }
+fibonnacci(0, 1, 50);
 
 function increament(){
     static $number=0;
